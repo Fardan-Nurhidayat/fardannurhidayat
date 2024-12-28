@@ -1,11 +1,14 @@
-import './App.css'
+import "./App.css";
 
-import Header from './components/Header'
-
-export default function App(){
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+export default function App() {
   return (
     <>
       <Header />
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
