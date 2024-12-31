@@ -34,7 +34,7 @@ const Hero = () => {
             />
             <ButtonOutline
               label='Scroll down'
-              href='#contact'
+              href='#about'
               icon='arrow_downward'
             />
           </div>
