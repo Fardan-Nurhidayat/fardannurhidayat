@@ -16,7 +16,7 @@ const SkillCard = ({ imgSrc, label, desc, classes }) => {
       </figure>
       <div>
         <h3>{label}</h3>
-        <p className=''>{desc}</p>
+        <p className='text-zinc-500'>{desc}</p>
       </div>
     </div>
   );
