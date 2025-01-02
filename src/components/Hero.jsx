@@ -9,7 +9,7 @@ const Hero = () => {
           <div className=' flex items-center gap-3'>
             <figure className='img-box w-9 h-9 rounded-lg'>
               <img
-                src='/images/avatar-1'
+                src='../src/assets/images/profile-fardan.png'
                 alt=''
                 width={40}
                 height={40}
@@ -30,7 +30,7 @@ const Hero = () => {
             <ButtonPrimary
               label='Download CV'
               icon='download'
-              href='#'
+              href='../public/CV-Fardan-Nurhidayat.pdf'
             />
             <ButtonOutline
               label='Scroll down'

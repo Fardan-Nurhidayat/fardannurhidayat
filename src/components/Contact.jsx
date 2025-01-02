@@ -1,6 +1,6 @@
 const socialLinks = [
   {
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/Fardan-Nurhidayat",
     icon: (
       <svg
         width='24'
@@ -17,7 +17,7 @@ const socialLinks = [
     alt: "GitHub",
   },
   {
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/fardan-nurhidayat/",
     icon: (
       <svg
         width='24'
@@ -33,25 +33,25 @@ const socialLinks = [
     ),
     alt: "LinkedIn",
   },
+  // {
+  //   href: "https://x.com/codewithsadee_",
+  //   icon: (
+  //     <svg
+  //       width='24'
+  //       height='24'
+  //       viewBox='0 0 24 24'
+  //       fill='none'
+  //       xmlns='http://www.w3.org/2000/svg'>
+  //       <path
+  //         d='M6.25 3C4.46403 3 3 4.46403 3 6.25V17.75C3 19.536 4.46403 21 6.25 21H17.75C19.536 21 21 19.536 21 17.75V6.25C21 4.46403 19.536 3 17.75 3H6.25ZM6.25 4.5H17.75C18.725 4.5 19.5 5.27497 19.5 6.25V17.75C19.5 18.725 18.725 19.5 17.75 19.5H6.25C5.27497 19.5 4.5 18.725 4.5 17.75V6.25C4.5 5.27497 5.27497 4.5 6.25 4.5ZM6.91406 7L10.7822 12.5283L6.91113 17H7.93262L11.2344 13.1758L13.9102 17H17.1289L13.0127 11.1172L16.5684 7H15.5684L12.5615 10.4717L10.1328 7H6.91406ZM8.46777 7.84766H9.74902L15.5752 16.1523H14.2939L8.46777 7.84766Z'
+  //         fill='currentColor'
+  //       />
+  //     </svg>
+  //   ),
+  //   alt: "Twitter X",
+  // },
   {
-    href: "https://x.com/codewithsadee_",
-    icon: (
-      <svg
-        width='24'
-        height='24'
-        viewBox='0 0 24 24'
-        fill='none'
-        xmlns='http://www.w3.org/2000/svg'>
-        <path
-          d='M6.25 3C4.46403 3 3 4.46403 3 6.25V17.75C3 19.536 4.46403 21 6.25 21H17.75C19.536 21 21 19.536 21 17.75V6.25C21 4.46403 19.536 3 17.75 3H6.25ZM6.25 4.5H17.75C18.725 4.5 19.5 5.27497 19.5 6.25V17.75C19.5 18.725 18.725 19.5 17.75 19.5H6.25C5.27497 19.5 4.5 18.725 4.5 17.75V6.25C4.5 5.27497 5.27497 4.5 6.25 4.5ZM6.91406 7L10.7822 12.5283L6.91113 17H7.93262L11.2344 13.1758L13.9102 17H17.1289L13.0127 11.1172L16.5684 7H15.5684L12.5615 10.4717L10.1328 7H6.91406ZM8.46777 7.84766H9.74902L15.5752 16.1523H14.2939L8.46777 7.84766Z'
-          fill='currentColor'
-        />
-      </svg>
-    ),
-    alt: "Twitter X",
-  },
-  {
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/fardan_nurhidayat/",
     icon: (
       <svg
         width='25'
@@ -72,13 +72,13 @@ const Contact = () => {
   return (
     <section
       id='contact'
-      className=''>
+      className='section'>
       <div className='container lg:grid lg:grid-cols-2 lg:items-stretch'>
         <div className='mb-12 lg:mb-0 lg:flex lg:flex-col'>
-          <h2 className='headline-2 lg:max-w-[12ch]'>
+          <h2 className='headline-2 lg:max-w-[12ch] reveal-up'>
             Contact me for collaboration
           </h2>
-          <p className='text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]'>
+          <p className='text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up'>
             Reach out today to discuss your project needs and start
             collaborating on something amazing!
           </p>
@@ -90,7 +90,7 @@ const Contact = () => {
                 href={href}
                 target='_blank'
                 rel='noreferrer'
-                className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80'>
+                className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80 reveal-up'>
                 {icon}
               </a>
             ))}
@@ -104,7 +104,7 @@ const Contact = () => {
             <div className='mb-4'>
               <label
                 htmlFor='email'
-                className='label'>
+                className='label reveal-up'>
                 Email
               </label>
               <input
@@ -114,13 +114,13 @@ const Contact = () => {
                 autoComplete='email'
                 required
                 placeholder='Enter your email'
-                className='text-field'
+                className='text-field reveal-up'
               />
             </div>
             <div className='mb-4'>
               <label
                 htmlFor='name'
-                className='label'>
+                className='label reveal-up'>
                 Name
               </label>
               <input
@@ -130,7 +130,7 @@ const Contact = () => {
                 autoComplete='name'
                 required
                 placeholder='Enter your name'
-                className='text-field'
+                className='text-field reveal-up'
               />
             </div>
           </div>
@@ -145,11 +145,11 @@ const Contact = () => {
               id=''
               placeholder="What's on your mind?"
               required
-              className='text-field resize-y min-h-32 max-h-80'></textarea>
+              className='text-field resize-y min-h-32 max-h-80 reveal-up'></textarea>
           </div>
           <button
             type='submit'
-            className='btn btn-primary [&]:max-w-full w-full justify-center'>
+            className='btn btn-primary [&]:max-w-full w-full justify-center reveal-up'>
             Submit
           </button>
         </form>
