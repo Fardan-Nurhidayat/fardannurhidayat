@@ -6,11 +6,6 @@ const skillItem = [
     desc: "Design tool",
   },
   {
-    imgSrc: "../src/assets/images/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
-  },
-  {
     imgSrc: "../src/assets/images/javascript.svg",
     label: "JavaScript",
     desc: "Interaction",
@@ -26,19 +21,64 @@ const skillItem = [
     desc: "Node Framework",
   },
   {
-    imgSrc: "../src/assets/images/mongodb.svg",
-    label: "MongoDB",
-    desc: "Database",
-  },
-  {
     imgSrc: "../src/assets/images/react.svg",
     label: "React",
     desc: "Framework",
   },
   {
+    imgSrc: "../src/assets/images/vue.svg",
+    label: "Vue",
+    desc: "Framework",
+  },
+  {
+    imgSrc: "../src/assets/images/PHP.svg",
+    label: "PHP",
+    desc: "Server-side",
+  },
+  {
+    imgSrc: "../src/assets/images/laravel.svg",
+    label: "Laravel",
+    desc: "PHP Framework",
+  },
+  {
+    imgSrc: "../src/assets/images/LiveWire.svg",
+    label: "LiveWire",
+    desc: "PHP Framework",
+  },
+  {
+    imgSrc: "../src/assets/images/filament.png",
+    label: "Filament",
+    desc: "PHP Framework",
+  },
+  {
+    imgSrc: "../src/assets/images/css3.svg",
+    label: "CSS",
+    desc: "User Interface",
+  },
+  {
+    imgSrc: "../src/assets/images/bootstrap.svg",
+    label: "Bootstrap",
+    desc: "User Interface",
+  },
+  {
     imgSrc: "../src/assets/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
+  },
+  {
+    imgSrc: "../src/assets/images/mongodb.svg",
+    label: "MongoDB",
+    desc: "Database",
+  },
+  {
+    imgSrc: "../src/assets/images/mysql.svg",
+    label: "MySQL",
+    desc: "Database",
+  },
+  {
+    imgSrc: "../src/assets/images/PostgresSQL.svg",
+    label: "PostgresSQL",
+    desc: "Database",
   },
 ];
 
