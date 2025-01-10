@@ -12,7 +12,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
-import Review from "./components/Review";
+// import Review from "./components/Review";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 export default function App() {
@@ -41,7 +41,7 @@ export default function App() {
         <About />
         <Skills />
         <Work />
-        <Review />
+        {/* <Review /> */}
         <Contact />
       </main>
       <Footer />
