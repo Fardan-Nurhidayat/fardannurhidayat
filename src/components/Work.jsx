@@ -2,40 +2,28 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "../src/assets/images/project-1.jpg",
-    title: "Full stack music app",
-    tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    imgSrc: "assets/images/project-arpus.png",
+    title: "Wordpress Development",
+    tags: ["Wordpress", "Web Design"],
+    projectLink: "https://arpus.cilacapkab.go.id/arpus/",
   },
   {
-    imgSrc: "../src/assets/images/project-2.jpg",
-    title: "Free stock photo app",
-    tags: ["API", "SPA"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    imgSrc: "assets/images/project-clone-apple.png",
+    title: "Clone Apple Website",
+    tags: ["HTML", "CSS", "JavaScript"],
+    projectLink: "https://portfolio-web-clone-1.netlify.app/",
   },
   {
-    imgSrc: "../src/assets/images/project-3.jpg",
-    title: "Recipe app",
-    tags: ["Development", "API"],
-    projectLink: "",
+    imgSrc: "assets/images/project-vue-blog.png",
+    title: "Blog Website with Vue",
+    tags: ["Vue", "SPA"],
+    projectLink: "https://blogs-app-with-vue.netlify.app/",
   },
   {
-    imgSrc: "../src/assets/images/project-4.jpg",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
-  },
-  {
-    imgSrc: "../src/assets/images/project-5.jpg",
-    title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-  },
-  {
-    imgSrc: "../src/assets/images/project-6.jpg",
-    title: "vCard Personal portfolio",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
+    imgSrc: "assets/images/project-astoetik.png",
+    title: "SIIAP",
+    tags: ["Laravel", "Filament", "Full Stack Development"],
+    projectLink: "https://www.astoetik.co.id/",
   },
 ];
 const Work = () => {

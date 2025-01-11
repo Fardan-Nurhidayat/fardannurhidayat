@@ -1,82 +1,82 @@
 import SkillCard from "./SkillCard";
 const skillItem = [
   {
-    imgSrc: "../src/assets/images/figma.svg",
+    imgSrc: "assets/images/figma.svg",
     label: "Figma",
     desc: "Design tool",
   },
   {
-    imgSrc: "../src/assets/images/javascript.svg",
+    imgSrc: "assets/images/javascript.svg",
     label: "JavaScript",
     desc: "Interaction",
   },
   {
-    imgSrc: "../src/assets/images/nodejs.svg",
+    imgSrc: "assets/images/nodejs.svg",
     label: "NodeJS",
     desc: "Web Server",
   },
   {
-    imgSrc: "../src/assets/images/expressjs.svg",
+    imgSrc: "assets/images/expressjs.svg",
     label: "ExpressJS",
     desc: "Node Framework",
   },
   {
-    imgSrc: "../src/assets/images/react.svg",
+    imgSrc: "assets/images/react.svg",
     label: "React",
     desc: "Framework",
   },
   {
-    imgSrc: "../src/assets/images/vue.svg",
+    imgSrc: "assets/images/vue.svg",
     label: "Vue",
     desc: "Framework",
   },
   {
-    imgSrc: "../src/assets/images/PHP.svg",
+    imgSrc: "assets/images/PHP.svg",
     label: "PHP",
     desc: "Server-side",
   },
   {
-    imgSrc: "../src/assets/images/laravel.svg",
+    imgSrc: "assets/images/laravel.svg",
     label: "Laravel",
     desc: "PHP Framework",
   },
   {
-    imgSrc: "../src/assets/images/LiveWire.svg",
+    imgSrc: "assets/images/Livewire.svg",
     label: "LiveWire",
     desc: "PHP Framework",
   },
   {
-    imgSrc: "../src/assets/images/filament.png",
+    imgSrc: "assets/images/filament.png",
     label: "Filament",
     desc: "PHP Framework",
   },
   {
-    imgSrc: "../src/assets/images/css3.svg",
+    imgSrc: "assets/images/css3.svg",
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "../src/assets/images/bootstrap.svg",
+    imgSrc: "assets/images/Bootstrap.svg",
     label: "Bootstrap",
     desc: "User Interface",
   },
   {
-    imgSrc: "../src/assets/images/tailwindcss.svg",
+    imgSrc: "assets/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "../src/assets/images/mongodb.svg",
+    imgSrc: "assets/images/mongodb.svg",
     label: "MongoDB",
     desc: "Database",
   },
   {
-    imgSrc: "../src/assets/images/mysql.svg",
+    imgSrc: "assets/images/MySQL.svg",
     label: "MySQL",
     desc: "Database",
   },
   {
-    imgSrc: "../src/assets/images/PostgresSQL.svg",
+    imgSrc: "assets/images/PostgresSQL.svg",
     label: "PostgresSQL",
     desc: "Database",
   },
