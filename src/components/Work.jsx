@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const works = [
   {
     imgSrc: "assets/images/project-arpus.png",
-    title: "Wordpress Development",
+    title: "Website Dinas Arpus Cilacap",
     tags: ["Wordpress", "Web Design"],
     projectLink: "https://arpus.cilacapkab.go.id/arpus/",
   },
@@ -15,13 +15,13 @@ const works = [
   },
   {
     imgSrc: "assets/images/project-vue-blog.png",
-    title: "Blog Website with Vue",
+    title: "Blogs App with Vue",
     tags: ["Vue", "SPA"],
     projectLink: "https://blogs-app-with-vue.netlify.app/",
   },
   {
     imgSrc: "assets/images/project-astoetik.png",
-    title: "SIIAP",
+    title: "Sistem Informasi Inventori & Aplikasi Penjualan",
     tags: ["Laravel", "Filament", "Full Stack Development"],
     projectLink: "https://www.astoetik.co.id/",
   },
