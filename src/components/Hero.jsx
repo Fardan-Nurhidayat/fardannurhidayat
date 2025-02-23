@@ -23,8 +23,9 @@ const Hero = () => {
               Available for work
             </div>
           </div>
-          <h2 className='headline-1 max-w-[15ch] sm-max-w-[20ch] lg:max-w-[15ch] mt-4 mb-8 lg:mb-10'>
-            Builidng scalable Modern Website for the Future
+          <h2 className='headline-2 max-w-[15ch] sm-max-w-[20ch] lg:max-w-[15ch] mt-4 mb-8 lg:mb-10'>
+            Dedicated to Continuous Learning and Producing the Best Work in the
+            Web Development Field
           </h2>
           <div className='flex items-center gap-3 sm:justify-center md:justify-center lg:justify-start'>
             <ButtonPrimary
