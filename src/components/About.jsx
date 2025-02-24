@@ -17,12 +17,12 @@ const About = () => {
       <div className='container'>
         <div className='bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up'>
           <p className='text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[90ch]'>
-            Halo, saya Fardan Nurhidayat, mahasiswa tingkat akhir di Politeknik
-            Negeri Cilacap. Saya memiliki pengalaman magang selama 6 bulan
-            sebagai Web Developer di CV. Astoetik Indonesia. Saat ini saya
-            sedang mencari pekerjaan sebagai Web Developer. Saya memiliki
-            kemampuan dalam membangun website dengan teknologi terbaru seperti
-            React, Vue, Tailwind CSS, dan Laravel.
+            Hello, I am Fardan Nurhidayat, a final year student at Politeknik
+            Politeknik Negeri Cilacap. I have 6 months of internship experience
+            as a Full Stack Engineer at CV Astoetik Indonesia. Currently I am
+            currently looking for a job as a Web Developer. I have ability in
+            building websites with the latest technologies such as React, Vue,
+            Tailwind CSS, and Laravel. Translated with DeepL.com (free version)
           </p>
           <div className='flex flex-wrap items-center gap-4 md:gap-7'>
             {aboutItems.map(({ label, number }, key) => (
