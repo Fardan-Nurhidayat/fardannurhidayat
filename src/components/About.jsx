@@ -19,9 +19,9 @@ const About = () => {
           <p className='text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[90ch]'>
             Hello, I am Fardan Nurhidayat, a final year student at Politeknik
             Politeknik Negeri Cilacap. I have 6 months of internship experience
-            as a Full Stack Engineer at CV Astoetik Indonesia. Currently I am
-            currently looking for a job as a Front End Engineer or Full Stack
-            Engineer. I have ability in building websites with the latest
+            as a Full Stack Developer at CV Astoetik Indonesia. Currently I am
+            currently looking for a job as a Front End Developer or Full Stack
+            Developer. I have ability in building websites with the latest
             technologies such as React, Vue, Tailwind CSS, and Laravel.
             Translated with DeepL.com (free version)
           </p>
