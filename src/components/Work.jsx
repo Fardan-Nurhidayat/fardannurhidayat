@@ -25,6 +25,12 @@ const works = [
     tags: ["Laravel", "Filament", "Full Stack Development"],
     projectLink: "https://www.astoetik.co.id/",
   },
+  {
+    imgSrc: "assets/images/react-notes-app.jpg",
+    title: "React Notes App",
+    tags: ["React", "Local Storage", "Dicoding Submission"],
+    projectLink: "https://react-notes-website.netlify.app/",
+  },
 ];
 const Work = () => {
   return (
