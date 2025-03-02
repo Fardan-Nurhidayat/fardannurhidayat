@@ -1,7 +1,7 @@
 const aboutItems = [
   {
     label: "Project Done",
-    number: 3,
+    number: 5,
   },
   {
     label: "Years of experience",
@@ -23,7 +23,6 @@ const About = () => {
             currently looking for a job as a Front End Developer or Full Stack
             Developer. I have ability in building websites with the latest
             technologies such as React, Vue, Tailwind CSS, and Laravel.
-            Translated with DeepL.com (free version)
           </p>
           <div className='flex flex-wrap items-center gap-4 md:gap-7'>
             {aboutItems.map(({ label, number }, key) => (

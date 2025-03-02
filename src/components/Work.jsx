@@ -31,6 +31,19 @@ const works = [
     tags: ["React", "Local Storage", "Dicoding Submission"],
     projectLink: "https://react-notes-website.netlify.app/",
   },
+  {
+    imgSrc: "assets/images/ipad-animated.png",
+    title: "Animated iPad",
+    tags: ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    projectLink: "https://fardan-nurhidayat.github.io/ipad-animated/",
+  },
+  {
+    imgSrc: "assets/images/mco.png",
+    title: "MCO (Management & Controlling Organization)",
+    tags: ["UI/UX Design", "Figma"],
+    projectLink:
+      "https://www.figma.com/design/UDvM13Ls8nwLoRYQic9aC9/DIP?t=RA3FH2E6hLe3F4p9-1",
+  },
 ];
 const Work = () => {
   return (
