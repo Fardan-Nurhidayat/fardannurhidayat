@@ -2,6 +2,12 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc : "assets/images/project-sipmb.jpg",
+    title: "Sistem Informasi Penerimaan Mahasiswa Baru",
+    tags: ["Laravel", "Full Stack Development"],
+    projectLink: "https://ti-3a-1.abm.my.id",
+  },
+  {
     imgSrc: "assets/images/project-arpus.png",
     title: "Website Dinas Arpus Cilacap",
     tags: ["Wordpress", "Web Design"],
