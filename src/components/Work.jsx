@@ -2,7 +2,13 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc : "assets/images/project-sipmb.jpg",
+    imgSrc: "assets/images/fincoach.jpg",
+    title: "Fincoach",
+    tags: ["React", "Front End Development"],
+    projectLink: "https://fincoach.vercel.app",
+  },
+  {
+    imgSrc: "assets/images/project-sipmb.jpg",
     title: "Sistem Informasi Penerimaan Mahasiswa Baru",
     tags: ["Laravel", "Full Stack Development"],
     projectLink: "https://ti-3a-1.abm.my.id",

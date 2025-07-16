@@ -6,9 +6,19 @@ const skillItem = [
     desc: "Design tool",
   },
   {
+    imgSrc: "assets/images/css3.svg",
+    label: "CSS",
+    desc: "User Interface",
+  },
+  {
     imgSrc: "assets/images/javascript.svg",
     label: "JavaScript",
     desc: "Interaction",
+  },
+  {
+    imgSrc: "assets/images/PHP.svg",
+    label: "PHP",
+    desc: "Server-side",
   },
   {
     imgSrc: "assets/images/nodejs.svg",
@@ -26,14 +36,9 @@ const skillItem = [
     desc: "Framework",
   },
   {
-    imgSrc: "assets/images/vue.svg",
-    label: "Vue",
-    desc: "Framework",
-  },
-  {
-    imgSrc: "assets/images/PHP.svg",
-    label: "PHP",
-    desc: "Server-side",
+    imgSrc: "assets/images/typescript.svg",
+    label: "TypeScript",
+    desc: "JavaScript Superset",
   },
   {
     imgSrc: "assets/images/laravel.svg",
@@ -51,11 +56,6 @@ const skillItem = [
     desc: "PHP Framework",
   },
   {
-    imgSrc: "assets/images/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
-  },
-  {
     imgSrc: "assets/images/Bootstrap.svg",
     label: "Bootstrap",
     desc: "User Interface",
@@ -64,11 +64,6 @@ const skillItem = [
     imgSrc: "assets/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
-  },
-  {
-    imgSrc: "assets/images/mongodb.svg",
-    label: "MongoDB",
-    desc: "Database",
   },
   {
     imgSrc: "assets/images/MySQL.svg",

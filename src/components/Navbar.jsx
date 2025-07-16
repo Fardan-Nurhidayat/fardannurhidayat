@@ -38,6 +38,11 @@ const Navbar = ({ navOpen }) => {
       link: "#work",
       className: "nav-link",
     },
+    {
+      label: "Certificates",
+      link: "#certificates",
+      className: "nav-link",
+    },
     // {
     //   label: "Reviews",
     //   link: "#reviews",
