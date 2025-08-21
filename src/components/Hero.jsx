@@ -31,7 +31,7 @@ const Hero = () => {
             <ButtonPrimary
               label='Download CV'
               icon='download'
-              href='CV-Fardan-Nurhidayat.pdf'
+              href='Fardan-Nurhidayat.pdf'
             />
             <ButtonOutline
               label='Scroll down'

@@ -14,6 +14,13 @@ const works = [
     projectLink: "https://ti-3a-1.abm.my.id",
   },
   {
+    imgSrc: "assets/images/voltage-detector.jpg",
+    title: "Voltage Detector",
+    tags: ["React", "Tailwind CSS", "JavaScript"],
+    projectLink:
+      "https://dashboard-gelang-voltage-detector.vercel.app/dashboard",
+  },
+  {
     imgSrc: "assets/images/project-arpus.png",
     title: "Website Dinas Arpus Cilacap",
     tags: ["Wordpress", "Web Design"],
@@ -24,12 +31,6 @@ const works = [
     title: "Clone Apple Website",
     tags: ["HTML", "CSS", "JavaScript"],
     projectLink: "https://portfolio-web-clone-1.netlify.app/",
-  },
-  {
-    imgSrc: "assets/images/project-vue-blog.png",
-    title: "Blogs App with Vue",
-    tags: ["Vue", "SPA"],
-    projectLink: "https://blogs-app-with-vue.netlify.app/",
   },
   {
     imgSrc: "assets/images/project-astoetik.png",

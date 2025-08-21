@@ -1,7 +1,7 @@
 const aboutItems = [
   {
     label: "Project Done",
-    number: 5,
+    number: 7,
   },
   {
     label: "Years of experience",
@@ -17,8 +17,8 @@ const About = () => {
       <div className='container'>
         <div className=''>
           <p className='text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[90ch]'>
-            Hello, I am Fardan Nurhidayat, A final year Diploma (D3) in
-            Informatics Engineering student with experience as a Web Developer
+            Hello, I am Fardan Nurhidayat, Fresh Graduates 
+            Informatics Engineering with experience as a Web Developer
             Intern at CV Astoetik Indonesia and an alumnus of the 2025 Coding
             Camp Powered by DBS Foundation. Proficient in frontend (TypeScript,
             React Js, Tailwind CSS) and backend (Laravel, Livewire, Node Js)
